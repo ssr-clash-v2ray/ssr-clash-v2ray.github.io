@@ -1,4 +1,4 @@
-# SSR Clash V2ray | 9月22日21.8M/S|免费SSR/Shadowrocket/V2ray/Clash订阅机场节点   更新时间 2025-09-22 09:14:42
+# SSR Clash V2ray | 9月30日20.6M/S|免费Shadowrocket节点/SSR节点/Clash节点/Singbox节点/V2ray节点订阅机场节点   更新时间 2025-09-30 09:48:49
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://ssr-clash-v2ray.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -7,27 +7,27 @@
 
 ## 订阅链接：
 
-### Clash订阅链接
+### 免费Clash节点订阅链接
 
-- https://ssr-clash-v2ray.github.io/uploads/2025/09/0-20250922.yaml
-- https://ssr-clash-v2ray.github.io/uploads/2025/09/1-20250922.yaml
-- https://ssr-clash-v2ray.github.io/uploads/2025/09/2-20250922.yaml
-- https://ssr-clash-v2ray.github.io/uploads/2025/09/3-20250922.yaml
-- https://ssr-clash-v2ray.github.io/uploads/2025/09/4-20250922.yaml
+- https://ssr-clash-v2ray.github.io/uploads/2025/09/0-20250930.yaml
+- https://ssr-clash-v2ray.github.io/uploads/2025/09/1-20250930.yaml
+- https://ssr-clash-v2ray.github.io/uploads/2025/09/2-20250930.yaml
+- https://ssr-clash-v2ray.github.io/uploads/2025/09/3-20250930.yaml
+- https://ssr-clash-v2ray.github.io/uploads/2025/09/4-20250930.yaml
 
-### V2ray订阅链接
+### 免费V2ray节点订阅链接
 
-- https://ssr-clash-v2ray.github.io/uploads/2025/09/0-20250922.txt
-- https://ssr-clash-v2ray.github.io/uploads/2025/09/1-20250922.txt
-- https://ssr-clash-v2ray.github.io/uploads/2025/09/2-20250922.txt
-- https://ssr-clash-v2ray.github.io/uploads/2025/09/3-20250922.txt
-- https://ssr-clash-v2ray.github.io/uploads/2025/09/4-20250922.txt
+- https://ssr-clash-v2ray.github.io/uploads/2025/09/0-20250930.txt
+- https://ssr-clash-v2ray.github.io/uploads/2025/09/1-20250930.txt
+- https://ssr-clash-v2ray.github.io/uploads/2025/09/2-20250930.txt
+- https://ssr-clash-v2ray.github.io/uploads/2025/09/3-20250930.txt
+- https://ssr-clash-v2ray.github.io/uploads/2025/09/4-20250930.txt
 
-### Sing-box订阅链接
+### 免费Sing-box节点订阅链接
 
-- https://ssr-clash-v2ray.github.io/uploads/2025/09/20250922.json
+- https://ssr-clash-v2ray.github.io/uploads/2025/09/20250930.json
 
-## 更多clash节点订阅 ：
+## 更多Clash节点订阅 ：
 
 
 ### 高速机场推荐1【<a href="https://www.nfsq.us/#/register?code=UTg5SIHV" target="_blank">农夫山泉</a>】
