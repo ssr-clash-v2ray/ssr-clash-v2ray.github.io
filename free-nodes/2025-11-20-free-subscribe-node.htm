@@ -241,24 +241,9 @@ Shadowrocket的界面设计简洁清晰，操作简单易懂。即使是没有�
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>如何安全地在服务器上部署 V2Ray（最小权限原则）？</h5></div>
+    <div class="panel-heading"><h5>Potatso Lite 的节点导入方式有哪些？</h5></div>
     <div class="panel-body">
-        使用独立非 root 用户运行 V2Ray，限制服务访问端口并仅开放必要端口；配置防火墙规则与 Fail2ban 限制暴力登录；定期更新内核与 V2Ray 版本，并关闭不必要的系统服务以减少攻击面。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>V2Ray 如何使用 WebSocket 传输？</h5></div>
-    <div class="panel-body">
-        在 V2Ray 配置文件中将传输方式设置为 ws，即启用 WebSocket 模式。结合 CDN 和 TLS，可实现安全高速的代理链路。WebSocket 常用于伪装成 HTTPS 流量，从而降低被识别风险。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Clash 的规则订阅更新有哪些注意事项？</h5></div>
-    <div class="panel-body">
-        Clash 订阅更新需保证网络畅通，规则文件格式正确，并与客户端版本兼容。建议定期更新规则以获得最新节点和分流规则，同时注意避免频繁刷新造成性能问题。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>如何在 Clash Premium 中使用 TUN 模式加速游戏？</h5></div>
-    <div class="panel-body">
-        Clash Premium 版本支持系统级 TUN 模式，可将所有 UDP 流量转发至代理节点。启用该模式后需管理员权限，并在配置文件中添加 dns 与 tun 模块，选择低延迟节点即可实现游戏加速。<hr />    </div>
+        Potatso Lite 支持通过手动添加节点信息或扫描二维码导入节点。虽然不支持自动订阅更新，但对轻量用户来说，手动方式足够使用，方便在 iOS 设备上管理节点。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Surfboard 是否支持 Clash 配置？</h5></div>
@@ -266,14 +251,19 @@ Shadowrocket的界面设计简洁清晰，操作简单易懂。即使是没有�
         Surfboard 是一款支持多种协议的客户端应用，它能够兼容 Clash 的配置文件格式，用户只需导入 YAML 文件即可。该应用以轻量、高速著称，常用于 iOS 和 macOS 系统。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Potatso Lite 的节点导入方式有哪些？</h5></div>
+    <div class="panel-heading"><h5>QuantumultX 支持哪些类型的分流规则？</h5></div>
     <div class="panel-body">
-        Potatso Lite 支持通过手动添加节点信息或扫描二维码导入节点。虽然不支持自动订阅更新，但对轻量用户来说，手动方式足够使用，方便在 iOS 设备上管理节点。<hr />    </div>
+        QuantumultX 支持域名、IP、端口、协议和用户自定义脚本分流。结合策略组使用，可实现精准流量控制，如广告屏蔽、视频加速和游戏优化，提高访问速度和体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>SSR 的混淆插件如何增强隐蔽性？</h5></div>
     <div class="panel-body">
         混淆插件可模拟正常协议特征，如 HTTP 或 TLS 流量，使 SSR 流量难以被检测。合理选择混淆方式和协议，可提升在高封锁环境下的长期稳定性和安全性。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>如何在 Clash Premium 中使用 TUN 模式加速游戏？</h5></div>
+    <div class="panel-body">
+        Clash Premium 版本支持系统级 TUN 模式，可将所有 UDP 流量转发至代理节点。启用该模式后需管理员权限，并在配置文件中添加 dns 与 tun 模块，选择低延迟节点即可实现游戏加速。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Clash 如何实现延迟自动切换？</h5></div>
@@ -286,9 +276,19 @@ Shadowrocket的界面设计简洁清晰，操作简单易懂。即使是没有�
         Potatso Lite 是一款操作简洁的代理工具，支持多种代理协议和自定义规则。它适合不需要复杂配置的用户，界面友好、性能稳定，非常适合日常轻量使用和应用代理。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>QuantumultX 支持哪些类型的分流规则？</h5></div>
+    <div class="panel-heading"><h5>Clash 的规则订阅更新有哪些注意事项？</h5></div>
     <div class="panel-body">
-        QuantumultX 支持域名、IP、端口、协议和用户自定义脚本分流。结合策略组使用，可实现精准流量控制，如广告屏蔽、视频加速和游戏优化，提高访问速度和体验。    </div>
+        Clash 订阅更新需保证网络畅通，规则文件格式正确，并与客户端版本兼容。建议定期更新规则以获得最新节点和分流规则，同时注意避免频繁刷新造成性能问题。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>V2Ray 如何使用 WebSocket 传输？</h5></div>
+    <div class="panel-body">
+        在 V2Ray 配置文件中将传输方式设置为 ws，即启用 WebSocket 模式。结合 CDN 和 TLS，可实现安全高速的代理链路。WebSocket 常用于伪装成 HTTPS 流量，从而降低被识别风险。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>如何安全地在服务器上部署 V2Ray（最小权限原则）？</h5></div>
+    <div class="panel-body">
+        使用独立非 root 用户运行 V2Ray，限制服务访问端口并仅开放必要端口；配置防火墙规则与 Fail2ban 限制暴力登录；定期更新内核与 V2Ray 版本，并关闭不必要的系统服务以减少攻击面。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -317,16 +317,16 @@ Shadowrocket的界面设计简洁清晰，操作简单易懂。即使是没有�
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2025-10-16-free-v2ray-subscribe.htm" title="SSR Clash V2ray | 10月16日18.1M/S|免费Singbox节点/SSR节点/V2ray节点/Clash节点/Shadowrocket节点订阅机场节点 ">SSR Clash V2ray | 10月16日18.1M/S|免费Singbox节点/SSR节点/V2ray节点/Clash节点/Shadowrocket节点订阅机场节点 </a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-13-clash-windows.htm" title="SSR Clash V2ray | 11月13日22.5M/S|免费Shadowrocket节点/Singbox节点/Clash节点/SSR节点/V2ray节点订阅机场节点 ">SSR Clash V2ray | 11月13日22.5M/S|免费Shadowrocket节点/Singbox节点/Clash节点/SSR节点/V2ray节点订阅机场节点 </a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-3-free-clash.htm" title="SSR Clash V2ray | 11月3日20.5M/S|免费SSR节点/V2ray节点/Shadowrocket节点/Singbox节点/Clash节点订阅机场节点 ">SSR Clash V2ray | 11月3日20.5M/S|免费SSR节点/V2ray节点/Shadowrocket节点/Singbox节点/Clash节点订阅机场节点 </a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-11-free-high-speed-nodes.htm" title="SSR Clash V2ray | 10月11日21.3M/S|免费Clash节点/Shadowrocket节点/Singbox节点/SSR节点/V2ray节点订阅机场节点 ">SSR Clash V2ray | 10月11日21.3M/S|免费Clash节点/Shadowrocket节点/Singbox节点/SSR节点/V2ray节点订阅机场节点 </a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-6-node-share-links.htm" title="SSR Clash V2ray | 11月6日22.3M/S|免费SSR节点/Shadowrocket节点/Clash节点/Singbox节点/V2ray节点订阅机场节点 ">SSR Clash V2ray | 11月6日22.3M/S|免费SSR节点/Shadowrocket节点/Clash节点/Singbox节点/V2ray节点订阅机场节点 </a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-10-shadowrocket-node.htm" title="SSR Clash V2ray | 10月10日22.7M/S|免费Clash节点/SSR节点/V2ray节点/Singbox节点/Shadowrocket节点订阅机场节点 ">SSR Clash V2ray | 10月10日22.7M/S|免费Clash节点/SSR节点/V2ray节点/Singbox节点/Shadowrocket节点订阅机场节点 </a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-12-free-ssr-node.htm" title="SSR Clash V2ray | 10月12日18.2M/S|免费SSR节点/V2ray节点/Clash节点/Singbox节点/Shadowrocket节点订阅机场节点 ">SSR Clash V2ray | 10月12日18.2M/S|免费SSR节点/V2ray节点/Clash节点/Singbox节点/Shadowrocket节点订阅机场节点 </a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-26-node-share-links.htm" title="SSR Clash V2ray | 11月26日19.9M/S|免费V2ray节点/SSR节点/Singbox节点/Clash节点/Shadowrocket节点订阅机场节点 ">SSR Clash V2ray | 11月26日19.9M/S|免费V2ray节点/SSR节点/Singbox节点/Clash节点/Shadowrocket节点订阅机场节点 </a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-17-node-share-links.htm" title="SSR Clash V2ray | 10月17日19M/S|免费Clash节点/Shadowrocket节点/V2ray节点/Singbox节点/SSR节点订阅机场节点 ">SSR Clash V2ray | 10月17日19M/S|免费Clash节点/Shadowrocket节点/V2ray节点/Singbox节点/SSR节点订阅机场节点 </a></li>
                         <li class="py-2"><a href="/free-nodes/2025-11-12-free-ssr-node.htm" title="SSR Clash V2ray | 11月12日19.4M/S|免费Clash节点/SSR节点/Shadowrocket节点/V2ray节点/Singbox节点订阅机场节点 ">SSR Clash V2ray | 11月12日19.4M/S|免费Clash节点/SSR节点/Shadowrocket节点/V2ray节点/Singbox节点订阅机场节点 </a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-23-free-v2ray-subscribe.htm" title="SSR Clash V2ray | 10月23日21.4M/S|免费Clash节点/Shadowrocket节点/V2ray节点/SSR节点/Singbox节点订阅机场节点 ">SSR Clash V2ray | 10月23日21.4M/S|免费Clash节点/Shadowrocket节点/V2ray节点/SSR节点/Singbox节点订阅机场节点 </a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-31-free-ssr-subscribe.htm" title="SSR Clash V2ray | 10月31日19.5M/S|免费SSR节点/V2ray节点/Clash节点/Singbox节点/Shadowrocket节点订阅机场节点 ">SSR Clash V2ray | 10月31日19.5M/S|免费SSR节点/V2ray节点/Clash节点/Singbox节点/Shadowrocket节点订阅机场节点 </a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-9-clash-node-daily-updates.htm" title="SSR Clash V2ray | 10月9日18.3M/S|免费SSR节点/Clash节点/Shadowrocket节点/Singbox节点/V2ray节点订阅机场节点 ">SSR Clash V2ray | 10月9日18.3M/S|免费SSR节点/Clash节点/Shadowrocket节点/Singbox节点/V2ray节点订阅机场节点 </a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-20-free-subscribe-node.htm" title="SSR Clash V2ray | 11月20日21.3M/S|免费SSR节点/Shadowrocket节点/Singbox节点/Clash节点/V2ray节点订阅机场节点 ">SSR Clash V2ray | 11月20日21.3M/S|免费SSR节点/Shadowrocket节点/Singbox节点/Clash节点/V2ray节点订阅机场节点 </a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-30-free-high-speed-nodes.htm" title="SSR Clash V2ray | 11月30日21.5M/S|免费SSR节点/Singbox节点/V2ray节点/Shadowrocket节点/Clash节点订阅机场节点 ">SSR Clash V2ray | 11月30日21.5M/S|免费SSR节点/Singbox节点/V2ray节点/Shadowrocket节点/Clash节点订阅机场节点 </a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-8-clash-windows.htm" title="SSR Clash V2ray | 11月8日19.3M/S|免费SSR节点/Singbox节点/Shadowrocket节点/V2ray节点/Clash节点订阅机场节点 ">SSR Clash V2ray | 11月8日19.3M/S|免费SSR节点/Singbox节点/Shadowrocket节点/V2ray节点/Clash节点订阅机场节点 </a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-4-free-ssr-subscribe.htm" title="SSR Clash V2ray | 10月4日19.3M/S|免费SSR节点/Shadowrocket节点/Singbox节点/V2ray节点/Clash节点订阅机场节点 ">SSR Clash V2ray | 10月4日19.3M/S|免费SSR节点/Shadowrocket节点/Singbox节点/V2ray节点/Clash节点订阅机场节点 </a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-12-1-free-ssr-subscribe.htm" title="SSR Clash V2ray | 12月1日18.8M/S|免费SSR节点/Clash节点/Singbox节点/Shadowrocket节点/V2ray节点订阅机场节点 ">SSR Clash V2ray | 12月1日18.8M/S|免费SSR节点/Clash节点/Singbox节点/Shadowrocket节点/V2ray节点订阅机场节点 </a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-22-free-clash-subscribe.htm" title="SSR Clash V2ray | 11月22日21.7M/S|免费Singbox节点/SSR节点/Clash节点/V2ray节点/Shadowrocket节点订阅机场节点 ">SSR Clash V2ray | 11月22日21.7M/S|免费Singbox节点/SSR节点/Clash节点/V2ray节点/Shadowrocket节点订阅机场节点 </a></li>
                     </ul>
     </div>
 </div>
@@ -338,7 +338,10 @@ Shadowrocket的界面设计简洁清晰，操作简单易懂。即使是没有�
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">21</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
+                <h4><span class="badge" style="float: right;">1</span> <a href="/date/2025-12/" title="2025-12 归档">2025-12</a></h4>
+            </li>
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">27</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">26</span> <a href="/date/2025-10/" title="2025-10 归档">2025-10</a></h4>
